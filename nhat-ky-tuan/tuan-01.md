@@ -1,50 +1,43 @@
-# Nhật ký tuần 01 · 15/09 – 21/09/2026
+# Nhật ký tuần 01 · 14/09 – 20/09/2026
 
-> **File ví dụ** — tên, số liệu và link đều là giả. Tuần mới thì copy
-> [`_mau-tuan.md`](_mau-tuan.md) thành `tuan-02.md`.
+**Lead tuần này:** Trần Thị Thủy Tiên (@2A202602171)  
+**Phòng / Nhóm:** D302  
+**Dữ liệu / task CVAT:** Dữ liệu video / camera hành trình xe tự hành (Giao thông đô thị) — Task 4 splits (Jobs #1690 – #1693) & Job độc lập (#1474)
 
-**Lead tuần này:** @thanh-vien-a
-**Dữ liệu / task CVAT:** Ảnh giao thông đô thị — [task 12](https://cvat.example.com/tasks/12)
+---
 
 ## Thành viên và phân công
 
-| Thành viên | Vị trí | Phân công tuần này |
-|---|---|---|
-| Nguyễn Văn A (@thanh-vien-a) | Lead | Chia job, chốt edge case, review xác suất 10% mọi job |
-| Trần Thị B (@thanh-vien-b) | Annotator | Job 101, 102 |
-| Lê Văn C (@thanh-vien-c) | Annotator | Job 103, 104 |
-| Phạm Thị D (@thanh-vien-d) | Reviewer · Annotator | Review job 101–104; gán job 105 |
+| Thành viên | MSSV / Mã | Vị trí | Phân công tuần này |
+|---|---|---|---|
+| **Trần Thị Thủy Tiên** | `2A202602171` | **Lead · Annotator** | Quản lý tiến độ, điều phối job, tổng hợp báo cáo; gán nhãn Job #1474; nghiệm thu QC toàn nhóm |
+| **Hoàng Công Chứ** | `2A202602187` | **QC Lead · Annotator** | Gán nhãn Job #1690; kiểm tra chéo (Review) Job #1691 và #1692 |
+| **Đoàn Văn Thắng** | `2A202602327` | **Annotator** | Gán nhãn Job #1691 |
+| **Nguyễn Thanh Đức** | `2A202602279` | **Annotator** | Gán nhãn Job #1692 |
+| **Đào Ngọc Hiếu** | `2A202602081` | **Annotator** | Gán nhãn Job #1693 |
 
-Phạm Thị D vừa review vừa gán, nên job 105 do Lead review.
+> *Ghi chú phân công Review:* Hoàng Công Chứ có chuyên môn sâu về *Annotation QC* và *Video Annotation*, chịu trách nhiệm chính kiểm tra chất lượng (Reviewer) cho các thành viên. Job của Hoàng Công Chứ (#1690) và của Leader (#1474) sẽ do chính Lead nghiệm thu đối chiếu chéo.
+
+---
 
 ## Công việc
 
-| # | Nội dung công việc | Annotator | Reviewer | Hoàn thành | Ghi chú |
+| # | Nội dung công việc | Annotator | Reviewer | Hoàn thành | Ghi chú & Trạng thái |
 |---|---|---|---|---|---|
-| 1 | Job 101 — 250 ảnh, bbox `xe_may` / `o_to` / `nguoi` | @thanh-vien-b | @thanh-vien-d | ✅ 100% | Review trả lại 12 ảnh, đã sửa xong |
-| 2 | Job 102 — 250 ảnh, cùng nhãn | @thanh-vien-b | @thanh-vien-d | 🟡 70% |  |
-| 3 | Job 103 — 250 ảnh, cùng nhãn | @thanh-vien-c | @thanh-vien-d | ⛔ 30% | Dừng, chờ chốt [P-002](../problem-backlog.md#p-002) |
-| 4 | Job 104 — 250 ảnh, cùng nhãn | @thanh-vien-c | @thanh-vien-d | ⬜ 0% | Làm sau job 103 |
-| 5 | Job 105 — 250 ảnh, cùng nhãn | @thanh-vien-d | @thanh-vien-a | 🟡 40% |  |
-| 6 | Đọc lại guideline §3, gom các ca chưa rõ | @thanh-vien-a | — | ✅ 100% | Ra P-001, P-002 |
-| 7 | Rà lại job 101 theo QĐ-001 | @thanh-vien-b | @thanh-vien-d | ✅ 100% | Sửa 37 ảnh người ngồi sau |
+| 1 | **Job #1474** — 25 frames, gán nhãn phương tiện/vật thể camera hành trình | @2A202602171 (Thủy Tiên) | @2A202602187 (Công Chứ) | 🟡 60% | *Stage: annotation, state: in progress*. Đang tiến hành, đảm bảo đúng tiến độ. |
+| 2 | **Job #1690** — 25 frames (Frame 0–24), task video giao thông | @2A202602187 (Công Chứ) | @2A202602171 (Thủy Tiên) | 🟡 70% | *Stage: annotation, state: in progress*. Cập nhật gần nhất lúc 00:03 ngày 17/09. |
+| 3 | **Job #1691** — 25 frames (Frame 25–49), task video giao thông | @2A202602327 (Văn Thắng) | @2A202602187 (Công Chứ) | 🟡 50% | *Stage: annotation, state: in progress*. Cập nhật lúc 23:40 ngày 16/09. |
+| 4 | **Job #1692** — 25 frames (Frame 50–74), task video giao thông | @2A202602279 (Thanh Đức) | @2A202602187 (Công Chứ) | 🟡 40% | *Stage: annotation, state: in progress*. Cập nhật lúc 11:17 ngày 16/09. |
+| 5 | **Job #1693** — 25 frames (Frame 75–99), task video giao thông | @2A202602081 (Ngọc Hiếu) | @2A202602187 (Công Chứ) | 🔴 0% | *Stage: annotation, state: new*. Chưa bắt đầu (cập nhật lúc 21:06 ngày 14/09). Cần đẩy nhanh tiến độ do đã chạm mốc Duration (3 days). |
 
-Mức hoàn thành: ✅ xong **và đã qua review** · 🟡 đang làm (ghi %) · ⛔ bị chặn (ghi lý do) · ⬜ chưa bắt đầu
+---
 
-## Tổng kết
+## Đánh giá của Leader & Kế hoạch xử lý tiếp theo
 
-- Đã gán: 425 / 1.250 ảnh (34%)
-- Qua review lần đầu: 88% (trả lại 51 ảnh)
-- Edge case mới: P-001, P-002, P-003 — đã chốt P-001 thành [QĐ-001](../so-quyet-dinh.md#qđ-001)
-
-## Vướng mắc
-
-- P-002 (xe bị che khuất) chưa chốt nên job 103 phải dừng. Lead đã gửi câu hỏi lên BTC.
-- P-003: vẽ lại box y hệt qua các frame liên tiếp mất ~40% thời gian job 105.
-  Đang cân nhắc làm tool trong [`source-tool/`](../source-tool/).
-
-## Kế hoạch tuần 02
-
-- Chốt P-002, mở lại job 103.
-- Xong job 102, 104, 105.
-- Quyết định có làm tool cho P-003 hay dùng chế độ Track sẵn có của CVAT.
+1. **Tiến độ chung:**
+   - Đã tạo job từ ngày **14/09/2026**, thời hạn thiết lập trên CVAT là **3 days** (tương đương hạn chót hoàn thành giai đoạn gán là 17/09/2026).
+   - Đa số các thành viên (4/5) đã mở job và đang tích cực thực hiện (`in progress`).
+   
+2. **Cảnh báo rủi ro & Hành động:**
+   - **Job #1693** của bạn *Đào Ngọc Hiếu* hiện vẫn ở trạng thái **`new`** (chưa gán frame nào). Lead sẽ liên hệ trực tiếp để kiểm tra xem bạn có gặp trục trặc kỹ thuật hoặc công cụ không nhằm hỗ trợ kịp thời.
+   - Khi các thành viên chuyển trạng thái job sang hoàn tất (`validation` hoặc `completed`), Reviewer (*Hoàng Công Chứ*) sẽ tiến hành kiểm định chất lượng (IoU, nhãn lớp, thuộc tính occluded/truncated) và trả phản hồi sửa lỗi trước cuối tuần.
