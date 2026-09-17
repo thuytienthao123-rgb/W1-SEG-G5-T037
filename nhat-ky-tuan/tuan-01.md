@@ -24,10 +24,10 @@
 | # | Nội dung công việc | Annotator | Reviewer | Hoàn thành | Ghi chú & Trạng thái |
 |---|---|---|---|---|---|
 | 1 | **Job #1474** — 25 frames, gán nhãn phương tiện/vật thể camera hành trình | @2A202602171 (Thủy Tiên) | @2A202602187 (Công Chứ) | 🟡 80% | *Stage: annotation, state: in progress*. Đang tiến hành, đảm bảo đúng tiến độ. |
-| 2 | **Job #1690** — 25 frames (Frame 0–24), task video giao thông | @2A202602187 (Công Chứ) | @2A202602171 (Thủy Tiên) | 🟡 20% | *Stage: annotation, state: in progress*. Cập nhật gần nhất lúc 00:03 ngày 17/09. |
+| 2 | **Job #1690** — 25 frames (Frame 0–24), task video giao thông | @2A202602187 (Công Chứ) | @2A202602171 (Thủy Tiên) | 🟡 40% | *Stage: annotation, state: in progress*. Cập nhật gần nhất lúc 11:33 ngày 17/09. |
 | 3 | **Job #1691** — 25 frames (Frame 25–49), task video giao thông | @2A202602327 (Văn Thắng) | @2A202602187 (Công Chứ) | 🟡 1% | *Stage: annotation, state: in progress*. Cập nhật lúc 23:40 ngày 16/09. |
-| 4 | **Job #1692** — 25 frames (Frame 50–74), task video giao thông | @2A202602279 (Thanh Đức) | @2A202602187 (Công Chứ) | 🟡 4% | *Stage: annotation, state: in progress*. Cập nhật lúc 11:17 ngày 16/09. |
-| 5 | **Job #1693** — 25 frames (Frame 75–99), task video giao thông | @2A202602081 (Ngọc Hiếu) | @2A202602187 (Công Chứ) | 🟡 80% | *Stage: annotation, state: in progress*. Cập nhật lúc 11:00 ngày 17/09).|
+| 4 | **Job #1692** — 25 frames (Frame 50–74), task video giao thông | @2A202602279 (Thanh Đức) | @2A202602187 (Công Chứ) | 🟡 4% | *Stage: annotation, state: in progress*. Cập nhật lúc 11:03 ngày 16/09. |
+| 5 | **Job #1693** — 25 frames (Frame 75–99), task video giao thông | @2A202602081 (Ngọc Hiếu) | @2A202602187 (Công Chứ) | 🟡 80% | *Stage: annotation, state: in progress*. Cập nhật lúc 11:13 ngày 17/09).|
 
 ---
 
