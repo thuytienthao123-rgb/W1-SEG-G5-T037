@@ -27,7 +27,7 @@
 | 2 | **Job #1690** — 25 frames (Frame 0–24), task video giao thông | @2A202602187 (Công Chứ) | @2A202602171 (Thủy Tiên) | 🟡 20% | *Stage: annotation, state: in progress*. Cập nhật gần nhất lúc 00:03 ngày 17/09. |
 | 3 | **Job #1691** — 25 frames (Frame 25–49), task video giao thông | @2A202602327 (Văn Thắng) | @2A202602187 (Công Chứ) | 🟡 1% | *Stage: annotation, state: in progress*. Cập nhật lúc 23:40 ngày 16/09. |
 | 4 | **Job #1692** — 25 frames (Frame 50–74), task video giao thông | @2A202602279 (Thanh Đức) | @2A202602187 (Công Chứ) | 🟡 4% | *Stage: annotation, state: in progress*. Cập nhật lúc 11:17 ngày 16/09. |
-| 5 | **Job #1693** — 25 frames (Frame 75–99), task video giao thông | @2A202602081 (Ngọc Hiếu) | @2A202602187 (Công Chứ) | 🔴 0% | *Stage: annotation, state: new*. Chưa bắt đầu (cập nhật lúc 21:06 ngày 14/09). Cần đẩy nhanh tiến độ do đã chạm mốc Duration (3 days). |
+| 5 | **Job #1693** — 25 frames (Frame 75–99), task video giao thông | @2A202602081 (Ngọc Hiếu) | @2A202602187 (Công Chứ) | 🟡 80% | *Stage: annotation, state: in progress*. Cập nhật lúc 11:00 ngày 17/09).|
 
 ---
 
@@ -35,8 +35,7 @@
 
 1. **Tiến độ chung:**
    - Đã tạo job từ ngày **14/09/2026**, thời hạn thiết lập trên CVAT là **3 days** (tương đương hạn chót hoàn thành giai đoạn gán là 17/09/2026).
-   - Đa số các thành viên (4/5) đã mở job và đang tích cực thực hiện (`in progress`).
+   - Toàn bộ thành viên (5/5) đã mở job và đang tích cực thực hiện (`in progress`).
    
 2. **Cảnh báo rủi ro & Hành động:**
-   - **Job #1693** của bạn *Đào Ngọc Hiếu* hiện vẫn ở trạng thái **`new`** (chưa gán frame nào). Lead sẽ liên hệ trực tiếp để kiểm tra xem bạn có gặp trục trặc kỹ thuật hoặc công cụ không nhằm hỗ trợ kịp thời.
    - Khi các thành viên chuyển trạng thái job sang hoàn tất (`validation` hoặc `completed`), Reviewer (*Hoàng Công Chứ*) sẽ tiến hành kiểm định chất lượng (IoU, nhãn lớp, thuộc tính occluded/truncated) và trả phản hồi sửa lỗi trước cuối tuần.
